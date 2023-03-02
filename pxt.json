@@ -1,0 +1,42 @@
+{
+    "name": "智慧家電",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "資料記錄器": "*",
+        "smarthome-kit": "github:tinkertanker/pxt-smarthome#v2.2.1",
+        "datalogger": "*",
+        "linebeacon": "github:pizayanz/pxt-linebeacon#v0.0.14",
+        "minode": "github:minodekit/pxt-minode#v1.1.0",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
